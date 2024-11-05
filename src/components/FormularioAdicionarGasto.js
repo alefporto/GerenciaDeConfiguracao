@@ -25,7 +25,7 @@ function AddExpenseForm({ onAddExpense }) {
         type="text"
         value={nome}
         onChange={(e) => setNome(e.target.value)}
-        placeholder="Nome do gasto"
+        placeholder="Nome da compra"
         required
       />
 
